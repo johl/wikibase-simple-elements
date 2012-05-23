@@ -1,0 +1,7 @@
+PREPARE SAMPLE INPUT FOR WIKIBASE
+=================================
+
+This script prepares a CSV file with chemical elements to feed into http://www.mediawiki.org/wiki/Extension:Wikibase
+
+Start me like this:
+  PYTHONIOENCODING="utf-8" python parse.py > simple-elements.csv
